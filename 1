@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>244 Clothing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>244 Clothing</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Estilo que combina com você</h2>
+        <p>Moda urbana e confortável para o dia a dia</p>
+        <button onclick="window.location='#produtos'">Ver Produtos</button>
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="images/camisa.jpg" alt="Camisa">
+                <h3>Camisa 244</h3>
+                <p>R$ 79,90</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <img src="images/calca.jpg" alt="Calça">
+                <h3>Calça Cargo</h3>
+                <p>R$ 129,90</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <img src="images/jaqueta.jpg" alt="Jaqueta">
+                <h3>Jaqueta Jeans</h3>
+                <p>R$ 199,90</p>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Fale Conosco</h2>
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu email" required>
+            <textarea placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 244 Clothing - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
